@@ -48,3 +48,64 @@ int main() {
     return 0;
 }
 ```
+
+## Maior entre 3
+```C
+#include <stdio.h>
+int main() {
+    double n1, n2, n3;
+    printf("Enter three different numbers: ");
+    scanf("%lf %lf %lf", &n1, &n2, &n3);
+
+    // if n1 is greater than both n2 and n3, n1 is the largest
+    if (n1 >= n2 && n1 >= n3)
+        printf("%.2f is the largest number.", n1);
+
+    // if n2 is greater than both n1 and n3, n2 is the largest
+    if (n2 >= n1 && n2 >= n3)
+        printf("%.2f is the largest number.", n2);
+
+    // if n3 is greater than both n1 and n2, n3 is the largest
+    if (n3 >= n1 && n3 >= n2)
+        printf("%.2f is the largest number.", n3);
+
+    return 0;
+}
+```
+
+
+## Raiz de equação de segundo grau 
+
+```C
+#include <math.h>
+#include <stdio.h>
+int main() {
+    double a, b, c, discriminant, root1, root2, realPart, imagPart;
+    printf("Enter coefficients a, b and c: ");
+    scanf("%lf %lf %lf", &a, &b, &c);
+
+    discriminant = b * b - 4 * a * c;
+
+    // condition for real and different roots
+    if (discriminant > 0) {
+        root1 = (-b + sqrt(discriminant)) / (2 * a);
+        root2 = (-b - sqrt(discriminant)) / (2 * a);
+        printf("root1 = %.2lf and root2 = %.2lf", root1, root2);
+    }
+
+    // condition for real and equal roots
+    else if (discriminant == 0) {
+        root1 = root2 = -b / (2 * a);
+        printf("root1 = root2 = %.2lf;", root1);
+    }
+
+    // if roots are not real
+    else {
+        realPart = -b / (2 * a);
+        imagPart = sqrt(-discriminant) / (2 * a);
+        printf("root1 = %.2lf+%.2lfi and root2 = %.2f-%.2fi", realPart, imagPart, realPart, imagPart);
+    }
+
+    return 0;
+} 
+```
