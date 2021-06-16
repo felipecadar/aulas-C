@@ -4,6 +4,21 @@
 - `if`
 - `if else`
 
+- Expressões de condições:
+  - `||` : "Ou"
+    - 0 || 0 = 0
+    - 1 || 0 = 1
+    - 0 || 1 = 1 
+    - 1 || 1 = 1
+  - `&&` : "E"
+    - 0 && 0 = 0
+    - 1 && 0 = 0
+    - 0 && 1 = 0 
+    - 1 && 1 = 1
+  - `<` : "Menor que"
+  - `>` : "Maior que" 
+  - `<=`: "Menor ou igual a"
+  - `>=`: "Maior ou igual a"
 
 ## Verificar paridade
 
