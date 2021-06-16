@@ -2,7 +2,7 @@
 
 ## Representação Binária e Hexadecimal
 
-- Exemplo: 1521310 (base 10) = 11101101101101 (base 2) = 0x17369E (base 10)
+- Exemplo: 1521310 (base 10) = 11101101101101 (base 2) = 0x17369E (base 16)
 - Endereços de memória no computador são representados usando Hex
 
 ## Ordenação de Bytes
@@ -49,7 +49,7 @@ Operador | Função
 
 - Exemplo: 
 ```C
-int x = 1; \\ 0b00000001 = 2 dec
+int x = 1; \\ 0b00000001 = 1 dec
 x = (x<<2); \\ 0b000000100 = 4 dec
 x = (x>>1); \\ 0b000000010 = 2 dec
 ```
