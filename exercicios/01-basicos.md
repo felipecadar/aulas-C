@@ -1,6 +1,6 @@
 # Exercícios Estruturas Sequenciais
 
-## 1) Impostos
+## 1) Impostos (Feito)
 
 Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos dê: 
 - salário bruto.
@@ -30,7 +30,7 @@ Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou 
 
 Faça um Programa que leia três números e mostre o maior e o menor deles.
 
-## 3) Aumento
+## 3) Aumento (Feito)
 
 Uma empresa resolveu dar um aumento de salário aos seus colaboradores e te contraram para desenvolver o programa que calculará os reajustes.
 Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
@@ -48,7 +48,7 @@ Após o aumento ser realizado, informe na tela:
 
 # Exercícios Estruturas de Repetição
 
-## 1) De 0 a 10 
+## 1) De 0 a 10 (Feito)
 
 Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
 
@@ -56,18 +56,18 @@ Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso
 
 Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 
-## 3) Fatorial
+## 3) Fatorial (Feito)
 
 Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. Ex.: 5!=5.4.3.2.1=120
 
-## 4) Fibonacci
+## 4) Fibonacci (Feito)
 
 A série de Fibonacci é formada pela sequência 1,1,2,3,5,8,13,21,34,55,... Faça um programa capaz de gerar a série até o n−ésimo termo.
 
 
 # Exercícios de Função
 
-# 1) Dobro
+# 1) Dobro (Feito)
 
 Faça um programa em C que leia três números e, para cada um, imprimir o dobro.
 O cálculo deverá ser realizado por uma função e o resultado impresso ao final do
@@ -94,7 +94,7 @@ vendas oferecendo desconto. Faça um programa que permita entrar com o valor
 de um produto e o percentual de desconto e imprimir o novo valor com base no
 percentual informado. Para fazer o cálculo, implemente uma função.
 
-# 5) Consoante ou Vogal
+# 5) Consoante ou Vogal (Feito)
 
 Construa um programa em C que leia um caractere (letra) e, por meio de uma
 função, retorne se este caractere é uma consoante ou uma vogal. Ao final imprima
