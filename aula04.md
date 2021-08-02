@@ -102,11 +102,37 @@ int main() {
 ```cpp
 #include <stdio.h>
 int main() {
+    int n;
+    printf("Enter an integer: ");
+    scanf("%d", &n);
 
-    /*
-    Seu código aqui
-    */
+    int i;
+    int t1 = 0;
+    int t2 = 1;
+    int prox;
 
+    if (n == 1) {
+        printf("%d", t1);
+    }
+    if (n == 2) {
+        printf("%d, %d", t1, t2);
+    }
+    if (n >= 3) {
+        printf("%d, %d, ", t1, t2);
+        for (i = 3; i <= n; i = i + 1) {
+            // 0 1 1 2 3 5 8 13 21
+            prox = t1 + t2;
+            printf("%d, ", prox);
+            // t1 t2 prox
+            // 0   1   1
+            // 0   1   1   2
+            //     t1  t2   prox
+            t1 = t2;
+            t2 = prox;
+        }
+    }
+
+    printf("\n");
     return 0;
 }
 ```

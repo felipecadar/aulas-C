@@ -32,7 +32,7 @@ Faça um Programa que leia três números e mostre o maior e o menor deles.
 
 ## 3) Aumento
 
-As Organizações Tabajara resolveram dar um aumento de salário aos seus colaboradores e lhe contraram para desenvolver o programa que calculará os reajustes.
+Uma empresa resolveu dar um aumento de salário aos seus colaboradores e te contraram para desenvolver o programa que calculará os reajustes.
 Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
 - salários até R$ 280,00 (incluindo) : aumento de 20%
 - salários entre R$ 280,00 e R$ 700,00 : aumento de 15%

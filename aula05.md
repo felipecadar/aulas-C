@@ -1,4 +1,4 @@
-# Funçoes
+# Funçoes E Recursividade
 
 - Tipo da função 
 - Nome
@@ -34,3 +34,18 @@ int main() {
 ```
 
 
+```cpp
+double fatorial(int n){
+  double vfat;
+  
+  // Condição de parada
+  if ( n <= 1 )
+    //Caso base: fatorial de n <= 1 retorna 1
+    return (1);
+  else{
+    //Chamada recursiva
+    vfat = n * fatorial(n - 1);
+    return (vfat);
+  }
+}
+```
