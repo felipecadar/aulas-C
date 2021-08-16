@@ -16,13 +16,13 @@ Faça um Programa que pergunte quanto você ganha por hora e o número de horas 
 = Salário Liquido : R$
 ```
 
-## 2) Latas de Tinta
+## 2) Latas de Tinta (Feito)
 
 Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
 
 # Exercícios Estruturas de Decisão
 
-## 1) Sinal do número
+## 1) Sinal do número (Feito)
 
 Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
 
@@ -52,7 +52,7 @@ Após o aumento ser realizado, informe na tela:
 
 Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
 
-## 2) Taxa de crescimento
+## 2) Taxa de crescimento (Feito)
 
 Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
 
@@ -73,12 +73,12 @@ Faça um programa em C que leia três números e, para cada um, imprimir o dobro
 O cálculo deverá ser realizado por uma função e o resultado impresso ao final do
 programa.
 
-# 2) Média
+# 2) Média (Feito)
 
 Faça um programa que receba as notas de três provas e calcule a média. Para o
 cálculo, escreva uma função. O programa deve imprimir a média ao final.
 
-# 3) Radiano
+# 3) Radiano (Teste)
 
 Faça um programa em C que leia o valor de um ângulo em graus e o converta,
 utilizando uma função, para radianos e ao final imprima o resultado. Veja a
