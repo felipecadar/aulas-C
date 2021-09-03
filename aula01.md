@@ -12,7 +12,7 @@
 - Little Endian (computadores Alpha, PCs)
   - Byte menos significativo no menor endereço
 
-Exemplo: 
+Exemplo::
 
 **Big Endian**
 | | | | | |
